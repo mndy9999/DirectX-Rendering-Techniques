@@ -85,7 +85,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Terrain.h" />
     <ClInclude Include="Libs\DirectXTK\DDSTextureLoader.h" />
     <ClInclude Include="Libs\DirectXTK\WICTextureLoader.h" />
     <ClInclude Include="Source\Animation.h" />
@@ -110,13 +109,13 @@
     <ClInclude Include="Source\Mesh.h" />
     <ClInclude Include="Source\stdafx.h" />
     <ClInclude Include="Source\targetver.h" />
+    <ClInclude Include="Source\Terrain.h" />
     <ClInclude Include="Source\Texture.h" />
     <ClInclude Include="Source\Triangle.h" />
     <ClInclude Include="Source\Utils.h" />
     <ClInclude Include="Source\VertexStructures.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Terrain.cpp" />
     <ClCompile Include="Source\Animation.cpp" />
     <ClCompile Include="Source\BaseModel.cpp" />
     <ClCompile Include="Source\BlurUtility.cpp" />
@@ -139,6 +138,7 @@
     <ClCompile Include="Source\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Source\Terrain.cpp" />
     <ClCompile Include="Source\Texture.cpp" />
     <ClCompile Include="Source\Triangle.cpp" />
     <ClCompile Include="Source\Utils.cpp" />

@@ -1,12 +1,12 @@
 ﻿  Scene.cpp
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(188): warning C4305: 'argument' : truncation from 'double' to 'float'
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(193): warning C4305: 'argument' : truncation from 'double' to 'float'
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(198): warning C4305: 'argument' : truncation from 'double' to 'float'
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(215): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(216): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(226): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(228): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(244): warning C4305: 'argument' : truncation from 'double' to 'float'
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(245): warning C4305: 'argument' : truncation from 'double' to 'float'
-c:\users\kim jong-un\desktop\directx 11\dx11_cs3s664_tutorial_17\source\scene.cpp(332): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
-  DX11Proj.vcxproj -> C:\Users\Kim Jong-Un\Desktop\DirectX 11\DX11_CS3S664_Tutorial_17\Debug\DX11Proj.exe
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(188): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(193): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(198): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(215): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(216): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(226): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(228): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(244): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(245): warning C4305: 'argument' : truncation from 'double' to 'float'
+c:\users\kim jong-un\desktop\directx 11 scene\source\scene.cpp(332): warning C4244: '=' : conversion from 'double' to 'FLOAT', possible loss of data
+  DX11Proj.vcxproj -> C:\Users\Kim Jong-Un\Desktop\DirectX 11 Scene\Debug\DX11Proj.exe

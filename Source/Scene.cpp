@@ -102,7 +102,7 @@ HRESULT Scene::initialiseSceneResources() {
 	// Disable Depth Writing 
 	ID3D11DepthStencilState *depthState = fountainEffect->getDepthStencilState();
 	D3D11_DEPTH_STENCIL_DESC dssDesc;
-	ZeroMemory(&dssDesc, sizeof(D3D11_DEPTH_STENCIL_DESC));
+	depthState->GetDesc(&dssDesc);
 	dssDesc.DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ZERO;
 	device->CreateDepthStencilState(&dssDesc, &depthState); 
 
@@ -351,7 +351,6 @@ HRESULT Scene::renderScene() {
 
 	// Render Scene objects
 	
-	// Render SkyBox
 	if (box)
 		box->render(context);
 	if (orb) 
@@ -366,12 +365,7 @@ HRESULT Scene::renderScene() {
 		castle->render(context);
 	if (guard)
 		guard->render(context);
-	if (fountain)
-		fountain->render(context);
-	if (fountain_water)
-		fountain_water->render(context);
-	if (fountain_water_part)
-		fountain_water_part->render(context); 
+
 	for (int i = 0; i < 10; i++) {
 		if (trees[i])
 			trees[i]->render(context);
@@ -402,6 +396,13 @@ HRESULT Scene::renderScene() {
 	}	
 	guard->setWorldMatrix(XMMatrixRotationY(rotation)*guard->getWorldMatrix()*XMMatrixTranslation(guardX, 0, guardZ));
 	guard->update(context);
+
+	if (fountain)
+		fountain->render(context);
+	if (fountain_water)
+		fountain_water->render(context);
+	if (fountain_water_part)
+		fountain_water_part->render(context);
 
 	DrawFlare(context);
 
