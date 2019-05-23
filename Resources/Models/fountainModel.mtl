@@ -1,0 +1,33 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 10.05.2019 10:03:15
+
+newmtl 3
+	Ns 45.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3647 0.2392 0.0392
+	Kd 0.7608 0.7137 0.6392
+	Ks 0.0900 0.0900 0.0900
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Kim Jong-Un\Desktop\DirectX 11\DX11_CS3S664_Tutorial_17\Resources\Models\Fountain\stone1.jpg
+	map_Kd C:\Users\Kim Jong-Un\Desktop\DirectX 11\DX11_CS3S664_Tutorial_17\Resources\Models\Fountain\stone1.jpg
+	map_bump C:\Users\Kim Jong-Un\Desktop\DirectX 11\DX11_CS3S664_Tutorial_17\Resources\Models\Fountain\stone1.jpg
+	bump C:\Users\Kim Jong-Un\Desktop\DirectX 11\DX11_CS3S664_Tutorial_17\Resources\Models\Fountain\stone1.jpg
+
+newmtl Material__8
+	Ns 45.0000
+	Ni 1.5000
+	d 0.9000
+	Tr 0.1000
+	Tf 0.9000 0.9000 0.9000 
+	illum 2
+	Ka 0.9098 0.9333 0.9333
+	Kd 0.7882 0.8784 0.9020
+	Ks 0.2340 0.2340 0.2340
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Kim Jong-Un\Desktop\DirectX 11\DX11_CS3S664_Tutorial_17\Resources\Models\Fountain\water.jpg
+	map_Kd C:\Users\Kim Jong-Un\Desktop\DirectX 11\DX11_CS3S664_Tutorial_17\Resources\Models\Fountain\water.jpg
+	map_refl Map__9_Flat_Mirror.tga
